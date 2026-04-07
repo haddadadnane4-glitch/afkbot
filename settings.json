@@ -5,9 +5,9 @@
         "type": "offline"
     },
     "server": {
-        "ip": "TendrosSMP_Season_1.aternos.me",
+        "ip": "TendrosSMP_Season_1.aernos.me",
         "port": 30579,
-        "version": "1.12.1"
+        "version": "1.21.11"
     },
     "utils": {
         "anti-afk": {
@@ -17,7 +17,6 @@
     },
     "chat-messages": {
         "enabled": false,
-        "repeat": false,
         "messages": []
     }
 }
