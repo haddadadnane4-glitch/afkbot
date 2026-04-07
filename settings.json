@@ -1,14 +1,14 @@
 {
   "bot-account": {
-    "username": "AFKBot", 
+    "username": "AFKBot",
     "password": "",
     "type": "offline"
   },
 
   "server": {
-    "ip": "TendrosSMP_Season_1.aternos.me", 
-    "port": 30579,   
-    "version": "1.12.1"   
+    "ip": "TendrosSMP_Season_1.aternos.me",
+    "port": 30579,
+    "version": "1.12.1"
   },
 
   "position": {
@@ -26,22 +26,16 @@
 
     "anti-afk": {
       "enabled": true,
-      "sneak": true
+      "sneak": true,
+      "move-randomly": true
     },
 
     "chat-messages": {
-      "enabled": true,
-      "repeat": true,
-      "repeat-delay": 60,
-
-      "messages": [
-        "I'm a regular player",
-        "Subscibe To Tyrox!",
-        "I Like to Play Minecraft!"
-      ]
+      "enabled": false,
+      "messages": []
     },
 
-    "chat-log": true,
+    "chat-log": false,
     "auto-reconnect": true,
     "auto-recconect-delay": 5000
   }
