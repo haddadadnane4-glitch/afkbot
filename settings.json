@@ -1,5 +1,5 @@
 {
-    "host": "your-server.aternos.me",
+    "host": "TendrosSMP_Season_1.aternos.me",
     "port": 30579,
     "username": "GOODBot",
     "auth": "offline",
@@ -7,9 +7,28 @@
     "AntiAFK": {
         "enabled": true,
         "Move_Randomly": true,
-        "interval": 10
+        "interval": 8,
+        "Random_Chance": 0.35,
+        "Max_Random_Movement": 0.8,
+        "Rotate": true,
+        "Rotation_Chance": 0.25,
+        "Jump": true,
+        "Jump_Chance": 0.15
     },
     "Chat": {
-        "enabled": false
+        "enabled": false,
+        "messages": []
+    },
+    "AutoRelog": {
+        "enabled": true,
+        "delay": 30
+    },
+    "AutoEat": {
+        "enabled": true,
+        "health": 16
+    },
+    "Ping": {
+        "enabled": true,
+        "delay": 60
     }
 }
