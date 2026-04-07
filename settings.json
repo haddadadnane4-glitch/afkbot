@@ -1,20 +1,23 @@
 {
-    "host": "TendrosSMP_Season_1.aternos.me",
-    "port": 30579,
-    "username": "GOODBot",
-    "auth": "offline",
-    "version": "1.16.5",
     "bot-account": {
-        "username": "GOODBot",
-        "auth": "offline"
+        "username": "GOODAFKBot",
+        "password": "",
+        "type": "offline"
     },
-    "AntiAFK": {
-        "enabled": true,
-        "Move_Randomly": true,
-        "interval": 10
+    "server": {
+        "ip": "TendrosSMP_Season_1.aternos.me",
+        "port": 30579,
+        "version": "1.12.1"
     },
-    "Chat": {
+    "utils": {
+        "anti-afk": {
+            "enabled": true,
+            "sneak": true
+        }
+    },
+    "chat-messages": {
         "enabled": false,
+        "repeat": false,
         "messages": []
     }
 }
