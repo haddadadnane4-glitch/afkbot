@@ -25,7 +25,7 @@
     },
 
     "anti-afk": {
-      "enabled": true,
+      "enabled": false,
       "sneak": true,
       "move-randomly": true
     },
