@@ -1,6 +1,6 @@
 {
     "bot-account": {
-        "username": "AFKBot",
+        "username": "TestBot",
         "password": "",
         "type": "offline"
     },
@@ -11,12 +11,10 @@
     },
     "utils": {
         "anti-afk": {
-            "enabled": true,
-            "sneak": true
+            "enabled": false
         }
     },
     "chat-messages": {
-        "enabled": false,
-        "messages": []
+        "enabled": false
     }
 }
