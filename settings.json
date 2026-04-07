@@ -4,31 +4,17 @@
     "username": "GOODBot",
     "auth": "offline",
     "version": "1.16.5",
+    "bot-account": {
+        "username": "GOODBot",
+        "auth": "offline"
+    },
     "AntiAFK": {
         "enabled": true,
         "Move_Randomly": true,
-        "interval": 8,
-        "Random_Chance": 0.35,
-        "Max_Random_Movement": 0.8,
-        "Rotate": true,
-        "Rotation_Chance": 0.25,
-        "Jump": true,
-        "Jump_Chance": 0.15
+        "interval": 10
     },
     "Chat": {
         "enabled": false,
         "messages": []
-    },
-    "AutoRelog": {
-        "enabled": true,
-        "delay": 30
-    },
-    "AutoEat": {
-        "enabled": true,
-        "health": 16
-    },
-    "Ping": {
-        "enabled": true,
-        "delay": 60
     }
 }
