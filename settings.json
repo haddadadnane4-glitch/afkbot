@@ -1,7 +1,7 @@
 {
     "host": "your-server.aternos.me",
-    "port": 25565,
-    "username": "YourBotName",
+    "port": 30579,
+    "username": "GOODBot",
     "auth": "offline",
     "version": "1.16.5",
     "AntiAFK": {
